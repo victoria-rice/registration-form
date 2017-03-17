@@ -1,7 +1,16 @@
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+@media only screen and (min-width: 60em) {
+
+.space-right {
+  padding-right: 1em;
+}
+
 }
